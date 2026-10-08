@@ -48,8 +48,8 @@ class SanitizationResult:
 
 def get_settings() -> Settings:
     return Settings(
-        weaviate_url=os.environ.get("WEAVIATE_URL", ""),
-        weaviate_api_key=os.environ.get("WEAVIATE_API_KEY", ""),
+        weaviate_url=os.environ.get("WEAVIATE_URL", "").strip(),
+        weaviate_api_key=os.environ.get("WEAVIATE_API_KEY", "").strip(),
         gcp_project=os.environ.get("GOOGLE_CLOUD_PROJECT", os.environ.get("GCP_PROJECT", "")),
         gcp_location=os.environ.get("GOOGLE_CLOUD_LOCATION", "us-central1").strip(),
         vertex_model=os.environ.get("VERTEX_MODEL", "gemini-2.5-flash"),
