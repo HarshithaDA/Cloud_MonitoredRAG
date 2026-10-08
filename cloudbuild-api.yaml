@@ -1,0 +1,15 @@
+steps:
+  - name: gcr.io/cloud-builders/docker
+    args:
+      - build
+      - -f
+      - Dockerfile.api
+      - -t
+      - gcr.io/$PROJECT_ID/cloud-monitored-rag-api:$COMMIT_SHA
+      - .
+  - name: gcr.io/cloud-builders/docker
+    args:
+      - push
+      - gcr.io/$PROJECT_ID/cloud-monitored-rag-api:$COMMIT_SHA
+images:
+  - gcr.io/$PROJECT_ID/cloud-monitored-rag-api:$COMMIT_SHA
