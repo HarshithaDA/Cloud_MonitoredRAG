@@ -5,11 +5,11 @@ steps:
       - -f
       - Dockerfile.api
       - -t
-      - gcr.io/$PROJECT_ID/cloud-monitored-rag-api:$COMMIT_SHA
+      - gcr.io/$PROJECT_ID/cloud-monitored-rag-api:latest
       - .
   - name: gcr.io/cloud-builders/docker
     args:
       - push
-      - gcr.io/$PROJECT_ID/cloud-monitored-rag-api:$COMMIT_SHA
+      - gcr.io/$PROJECT_ID/cloud-monitored-rag-api:latest
 images:
-  - gcr.io/$PROJECT_ID/cloud-monitored-rag-api:$COMMIT_SHA
+  - gcr.io/$PROJECT_ID/cloud-monitored-rag-api:latest

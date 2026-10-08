@@ -5,11 +5,11 @@ steps:
       - -f
       - Dockerfile.ingestion
       - -t
-      - gcr.io/$PROJECT_ID/cloud-monitored-rag-ingestion:$COMMIT_SHA
+      - gcr.io/$PROJECT_ID/cloud-monitored-rag-ingestion:latest
       - .
   - name: gcr.io/cloud-builders/docker
     args:
       - push
-      - gcr.io/$PROJECT_ID/cloud-monitored-rag-ingestion:$COMMIT_SHA
+      - gcr.io/$PROJECT_ID/cloud-monitored-rag-ingestion:latest
 images:
-  - gcr.io/$PROJECT_ID/cloud-monitored-rag-ingestion:$COMMIT_SHA
+  - gcr.io/$PROJECT_ID/cloud-monitored-rag-ingestion:latest
