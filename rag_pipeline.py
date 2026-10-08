@@ -5,6 +5,7 @@ from __future__ import annotations
 import os
 import re
 from dataclasses import dataclass
+from functools import lru_cache
 from importlib import import_module
 from importlib.util import find_spec
 from pathlib import Path
@@ -101,6 +102,7 @@ def extract_pdf_text(path: Path) -> str:
     return text
 
 
+@lru_cache(maxsize=2)
 def build_embedding_model(model_name: str):
     try:
         from sentence_transformers import SentenceTransformer
