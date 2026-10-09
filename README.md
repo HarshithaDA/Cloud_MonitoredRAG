@@ -81,6 +81,27 @@ Captured attributes can include:
 
 The `retrieval_hit_rate()` signal measures the fraction of returned hits with a positive hybrid score. It is attached to the parent RAG span and is visible in Phoenix when spans are exported successfully.
 
+## Screenshots of project traces and dashboards:
+
+# Weaviate Cloud
+<img width="1398" height="886" alt="Screenshot 2026-10-07 213013" src="https://github.com/user-attachments/assets/cffe2358-40ff-4384-bd19-348e6b0c43ab" />
+<img width="855" height="540" alt="image" src="https://github.com/user-attachments/assets/01ab8c9e-c336-4dfa-b2f5-fbd42dc6f058" />
+<img width="1461" height="762" alt="image" src="https://github.com/user-attachments/assets/5f9144dd-fdc8-49cb-bf90-f9fcf189e2d3" />
+
+
+# Phoenix - Traces and evaluation metrics
+<img width="1472" height="688" alt="image" src="https://github.com/user-attachments/assets/45c181ec-6736-443b-9e6a-209d0f5f81ac" />
+<img width="1466" height="682" alt="image" src="https://github.com/user-attachments/assets/b921cc93-37c6-486d-ba7f-9c0314bf44d2" />
+<img width="1465" height="682" alt="image" src="https://github.com/user-attachments/assets/204ca5e4-aed1-4b43-b365-79ef9bc4abd0" />
+
+# Streamlit - Chat, Retrieval Inspector, Guardrail Test and Telemetry
+<img width="1206" height="886" alt="Screenshot 2026-10-07 220734" src="https://github.com/user-attachments/assets/83586236-3669-42c2-8ca5-0f7dc28eedfe" />
+<img width="1452" height="855" alt="Screenshot 2026-10-07 220943" src="https://github.com/user-attachments/assets/3b3a7ec9-c7b4-4884-8785-152895d0b62f" />
+<img width="1435" height="871" alt="Screenshot 2026-10-07 221020" src="https://github.com/user-attachments/assets/56cce918-d371-4f6e-ab66-161b22b6a69a" />
+<img width="1490" height="828" alt="Screenshot 2026-10-07 221635" src="https://github.com/user-attachments/assets/747ccbd2-3920-454a-bbf7-68175d44fd0e" />
+
+
+
 ### User interfaces and APIs
 
 The Streamlit interface includes:
