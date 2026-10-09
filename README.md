@@ -85,7 +85,6 @@ The `retrieval_hit_rate()` signal measures the fraction of returned hits with a 
 
 # Weaviate Cloud
 <img width="1398" height="886" alt="Screenshot 2026-10-07 213013" src="https://github.com/user-attachments/assets/cffe2358-40ff-4384-bd19-348e6b0c43ab" />
-<img width="855" height="540" alt="image" src="https://github.com/user-attachments/assets/01ab8c9e-c336-4dfa-b2f5-fbd42dc6f058" />
 <img width="1461" height="762" alt="image" src="https://github.com/user-attachments/assets/5f9144dd-fdc8-49cb-bf90-f9fcf189e2d3" />
 
 
