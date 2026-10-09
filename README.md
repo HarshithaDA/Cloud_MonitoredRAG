@@ -10,10 +10,6 @@ Cloud Monitored RAG is a secure, observable Retrieval-Augmented Generation (RAG)
 - A Streamlit application for chat, retrieval inspection, guardrail testing, and telemetry.
 - Flask APIs suitable for Cloud Run deployment.
 
-The project is useful as a reference architecture and local validation environment for monitored RAG systems. It is not a replacement for a production security review, data-governance review, or cost-control policy.
-
-> **Current status:** The local RAG workflow has been tested end-to-end with Weaviate Cloud, local PDF ingestion, hybrid retrieval, Vertex AI generation, Phoenix traces, and Streamlit. Google Cloud Run deployment and public-repository publication are deployment steps that still need to be completed.
-
 ## Features
 
 ### PDF ingestion
